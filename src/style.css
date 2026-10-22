@@ -7,3 +7,27 @@
 .card-pricing strong{font-size:1.24rem;letter-spacing:-.045em;color:var(--ink)}
 .card-pricing span{font:10px 'DM Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .offer-disclaimer{max-width:850px;margin:18px auto 0;color:var(--muted);font-size:11px;line-height:1.7;text-align:center}
+
+
+/* Software-development positioning */
+.work{padding-block:95px 110px}
+.work-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:36px;margin:22px 0 35px}
+.work-heading h2{font-size:clamp(43px,5vw,62px);line-height:1;letter-spacing:-.07em;margin:0}
+.work-heading>p{max-width:390px;margin:0 0 4px;color:var(--muted);font-size:13px;line-height:1.8}
+.work-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.work-card{padding:25px;border:1px solid var(--line);border-radius:7px;min-height:315px;display:flex;flex-direction:column;background:#fffdf8}
+.work-card.peach{background:#fff0e8}
+.work-card.lilac{background:#f0edfc}
+.work-card.lime{background:#eff7d8}
+.work-card-top{display:flex;align-items:center;justify-content:space-between;font:9px 'DM Mono',monospace;letter-spacing:.08em;color:#68665f}
+.work-card-top svg{color:#3b3a32}
+.work-mark{height:95px;display:flex;align-items:center;position:relative;color:#292a24}
+.work-mark>svg{padding:12px;width:66px;height:66px;background:#ffffff8c;border:1px solid #292a2415;border-radius:19px}
+.work-mark-dot{position:absolute;left:53px;top:18px;font-size:24px;color:var(--coral)}
+.work-card h3{font-size:21px;letter-spacing:-.045em;margin:0 0 10px}
+.work-card>p{color:#55534d;font-size:12px;line-height:1.8;margin:0 0 21px}
+.work-link{border-top:1px solid #302d2426;padding-top:15px;margin-top:auto;display:flex;align-items:center;justify-content:space-between;font-size:11px;font-weight:600}
+.work-link svg{transition:transform .2s}
+.work-link:hover svg{transform:translate(3px,-3px)}
+@media(max-width:900px){.work-card{padding:19px}.work-card h3{font-size:18px}.work-grid{gap:12px}}
+@media(max-width:650px){.work{padding-block:75px}.work-heading{display:block;margin-bottom:25px}.work-heading h2{font-size:45px}.work-heading>p{margin-top:18px}.work-grid{grid-template-columns:1fr}.work-card{min-height:265px;padding:22px}.work-mark{height:80px}}
