@@ -22,7 +22,7 @@ const services = [
     n: '02',
     title: 'Business Website',
     tag: 'MULTI-PAGE',
-    text: 'A complete web presence with a consistent design, multiple pages, service or product information, mobile-friendly layouts, and a straightforward contact journey.',
+    text: 'Build or refresh a complete web presence with a consistent design, clear service or product pages, mobile-friendly layouts, and a smoother enquiry journey.',
     icon: Smartphone,
     tone: 'lilac',
     price: '₹19,999',
