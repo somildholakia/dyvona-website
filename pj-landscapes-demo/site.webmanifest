@@ -1,0 +1,12 @@
+{
+  "name": "P&J Landscapes",
+  "short_name": "P&J Landscapes",
+  "description": "Garden landscaping and maintenance in Aylesbury and surrounding counties.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f6f0",
+  "theme_color": "#203c2d",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
